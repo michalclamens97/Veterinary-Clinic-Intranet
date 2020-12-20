@@ -1,0 +1,171 @@
+
+
+body{
+      /*background-image: url(../img/petShop2.jpg);*/
+      background: #C1C1C1;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+    }
+
+    #ui{
+      background-color: #262a34; /*#5536F2*/
+      opacity: 1;
+      padding: 30px;
+      margin-top: 50px;
+      border-radius: 10px;
+    }
+
+.wrapper{
+  background-color: #262a34 !important;
+}
+.wrapper:hover {
+        background-color: #2ecc71 !important;
+        color: black !important;
+    }
+/*ESTILOS DE LOS INPUTS DE TIPO TEXTO Y FECHA*/
+  #ui input[type = "text"]{
+  border: 0;
+  background: none;
+  text-align: center;
+  border: 2px solid #3498db;
+  outline: none;
+  color: white;
+  border-radius: 24px; /*bordes del input*/
+  transition: 0.25s; /*duracion de la transicion del focus*/
+}
+
+#ui input[type = "date"]{
+  border: 0;
+  background: none;
+  text-align: center;
+  border: 2px solid #3498db;
+  outline: none;
+  color: white;
+  border-radius: 24px; /*bordes del input*/
+  transition: 0.25s; /*duracion de la transicion del focus*/
+}
+
+#ui input[type = "password"]{
+  border: 0;
+  background: none;
+  text-align: center;
+  border: 2px solid #3498db;
+  outline: none;
+  color: white;
+  border-radius: 24px; /*bordes del input*/
+  transition: 0.25s; /*duracion de la transicion del focus*/
+}
+
+#ui textarea{
+  border: 0;
+  background: none;
+  text-align: center;
+  border: 2px solid #3498db;
+  outline: none;
+  color: white;
+  border-radius: 24px; /*bordes del input*/
+  transition: 0.25s; /*duracion de la transicion del focus*/
+}
+
+
+/*ESTILOS DEL SELECT*/
+  #ui select{
+    border: 0;
+    border: 2px solid #3498db;
+    background: none;
+    text-align: center;
+    border-radius: 24px; /*bordes del input*/
+    transition: 0.25s; /*duracion de la transicion del focus*/
+    color: white;
+    font-weight: bolder;
+  }
+
+
+
+
+  /*ESTILOS DEL FOCUS PARA LOS INPUT DE TIPO TEXTO Y FECHA*/
+  #ui input[type = "text"]:focus{
+    border-color: #2ecc71;
+    box-shadow: 2px 2px 10px #666;
+}
+
+#ui input[type = "date"]:focus{
+    border-color: #2ecc71;
+    box-shadow: 2px 2px 10px #666;
+}
+
+#ui input[type = "password"]:focus{
+    border-color: #2ecc71;
+    box-shadow: 2px 2px 10px #666;
+}
+
+#ui textarea:focus{
+    border-color: #2ecc71;
+    box-shadow: 2px 2px 10px #666;
+}
+  /*ESTILOS DEL FOCUS PARA LOS SELECT*/
+  #ui select:focus{
+    border-color: #2ecc71;
+    box-shadow: 2px 2px 10px #666;
+}
+
+ 
+    #ui label,h1{
+      color: #fff;
+    }
+
+    .boton{
+      cursor: pointer;
+      background-color: #2ecc71;
+      color: white;
+    }
+
+/*ESTILOS PARA LOS BORDES DEL SELECTPICKER*/
+ .btn.dropdown-toggle.btn-default{
+    
+    
+    border: 2px solid #3498db;
+    background: none;
+    text-align: center;
+    border-radius: 24px; /*bordes del input*/
+    transition: 0.25s; /*duracion de la transicion del focus*/
+    color: white;
+    font-weight: bolder;
+
+  }
+
+/*ESTILOS PARA EL INTERIOR DEL SELECTPICKER*/
+.bootstrap-select.btn-group {
+     background: none !important;
+ }
+ 
+
+/*ESTILOS PARA EL INPUT DENTRO DEL SELECT PICKER*/
+ .bs-searchbox .form-control{
+  color: black !important;
+ }
+
+/*ESTILOS PARA LOS BORDES DEL SELECTPICKER CON FOCUS*/
+.btn.dropdown-toggle.btn-default:focus{
+    border-color: #2ecc71;
+    box-shadow: 2px 2px 10px #666;
+}
+
+    .boton:hover{
+      background-color: #06B226;
+    }
+
+   button > a{
+    color: white;
+    
+   }
+
+
+   button > a:hover{
+    color: black;
+    text-decoration: none;
+    
+   }
+
+  

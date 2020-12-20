@@ -1,0 +1,34 @@
+body{
+      background-image: url(../img/petShop2.jpg);
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+    }
+    #ui{
+      background-color: #3649D6; /*#5536F2*/
+      opacity: 0.9;
+      padding: 30px;
+      margin-top: 50px;
+      border-radius: 10px;
+    }
+    #ui label,h1{
+      color: #fff;
+    }
+
+    .btn{
+      cursor: pointer;
+    }
+
+   button > a{
+    color: white;
+    
+   }
+
+
+   button > a:hover{
+    color: black;
+    text-decoration: none;
+    
+   }
+
+  

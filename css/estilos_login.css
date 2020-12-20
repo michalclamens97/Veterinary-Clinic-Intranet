@@ -1,0 +1,134 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	/*
+	background: url(../img/logofinal.jpg) center top no-repeat;
+	background-size:1550px;
+	*/
+   
+}
+
+.box{
+	border-radius: 15px;
+	margin-left: 300px;
+	width: 400px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #191919;
+	text-align: center;
+	opacity: 1;
+}
+
+.box h1{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+
+
+}
+
+.icon{
+	color:white;
+	font-size: 20px;
+}
+
+.box input[type = "text"], .box input[type = "password"]{
+	border: 0;
+	background: none;
+	margin: 10px auto;
+	margin-right: 25px;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px; /*bordes del input*/
+	transition: 0.25s; /*duracion de la transicion del focus*/
+}
+
+.prueba{
+	text-decoration: none;
+    border: 0;
+	background: none;
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px; /*bordes del input*/
+	transition: 0.25s; /*duracion de la transicion del focus*/
+	font-size: 12px!important;
+}
+
+/*para el efecto focus (se estira los inputs al darles click )*/
+.box input[type = "text"]:focus, .box input[type = "password"]:focus{
+	width: 280px; 
+	border-color: #2ecc71;
+
+}
+
+.box input[type = "submit"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px; /*bordes del input*/
+	transition: 0.25s; /*duracion de la transicion*/
+	cursor: pointer;	
+
+
+}
+
+.box input[type = "submit"]:hover{
+	background: #2ecc71;
+
+
+}
+
+.prueba:hover{
+	background: #2ecc71;
+
+
+}
+
+.texto-registrate{
+	text-align: center;
+	color: white;
+	font-size: 13px;
+}
+
+.texto-registrate a{
+	display: block;
+	font-size: 18px;
+	color: white;
+
+}
+
+
+
+/*
+background-image: url(../img/petShop2.jpg);
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+
+<div class="wrapper text-right">
+					<p id="msj">Usuario Conectado: <?php echo $_SESSION['usuario']?></p>
+				</div>
+
+
+
+      */
